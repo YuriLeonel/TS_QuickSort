@@ -1,0 +1,32 @@
+{
+  "name": "typescript-quicksort",
+  "version": "1.0.0",
+  "description": "A TypeScript implementation of the QuickSort algorithm",
+  "main": "dist/quicksort.js",
+  "types": "dist/quicksort.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "eslint . --ext .ts --fix",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "typescript",
+    "quicksort",
+    "algorithm",
+    "sorting"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2",
+    "typescript": "^5.3.3"
+  }
+} 
